@@ -34,9 +34,14 @@ This is a minimal Java Servlet application developed with the **Jakarta Servlet 
 
 1. **Project Structure (within a Dynamic Web Project or WAR format):**
 ```pgsql
-YourProject/
-├── WEB-INF/
-│   ├── web.xml
-│   └── classes/
-│       └── MainServlet.class
+Servlet App/
+├── src/
+│   ├── main/
+│       ├── java/
+│           └── MainServlet.java
+│       └── webapp/
+│           ├── META-INF/
+│               └── MANIFEST.MF
+│           └── WEB-INF/
+│               └── web.xml
 ```
