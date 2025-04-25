@@ -33,8 +33,10 @@ This is a minimal Java Servlet application developed with the **Jakarta Servlet 
 ## ⚙️ How to Deploy
 
 1. **Project Structure (within a Dynamic Web Project or WAR format):**
+```pgsql
 YourProject/
 ├── WEB-INF/
 │   ├── web.xml
 │   └── classes/
 │       └── MainServlet.class
+```
